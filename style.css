@@ -1,0 +1,238 @@
+/* Сброс отступов и полей */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Основные стили для body */
+body {
+    background-color: #f6f6f6; /* Светлый фон */
+    color: #333; /* Цвет текста */
+    font-family: 'Comfortaa', Arial, sans-serif; /* Шрифт Comfortaa */
+    overflow-x: hidden; /* Убираем горизонтальный скролл */
+}
+
+/* Контейнер для навигации и логотипа */
+.top-nav {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    background-color: #1b5e20; /* Зеленый фон */
+    z-index: 1;
+    height: 60px;
+}
+
+/* Логотип */
+.logo {
+    width: 120px;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Навигационные ссылки */
+.navigation a {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    color: #ffd700; /* Золотистый при наведении */
+}
+
+/* Кнопка входа */
+.login-button img {
+    width: 30px;
+    height: 30px;
+}
+
+/* Герой-блок с изображением */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background-image: url('pet-store-hero.jpg'); /* Замените на ваш путь к изображению */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero-text .shop-now-btn {
+    background-color: #ffd700;
+    color: #1b5e20;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hero-text .shop-now-btn:hover {
+    background-color: #e0c200;
+}
+
+/* Секция с категориями товаров */
+.categories {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1b5e20;
+}
+
+.categories-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.category-card {
+    width: 280px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.category-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.category-card h3 {
+    font-size: 20px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.category-card a {
+    text-decoration: none;
+    color: #1b5e20;
+    font-weight: bold;
+}
+
+.category-card a:hover {
+    color: #ffd700;
+}
+
+/* Секция с каруселью популярных товаров */
+.featured-products {
+    padding: 50px 20px;
+    background-color: #e8f5e9;
+    text-align: center;
+}
+
+.featured-products h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #1b5e20;
+}
+
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px;
+}
+
+.carousel-item {
+    min-width: 220px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.carousel-item h4 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.carousel-item p {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Кнопка "Купить" в карусели */
+.buy-btn {
+    display: inline-block;
+    background-color: #1b5e20;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.buy-btn:hover {
+    background-color: #145a17;
+}
+
+/* Футер */
+.footer {
+    padding: 20px;
+    background-color: #1b5e20;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.footer a {
+    color: #ffd700;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
