@@ -1,19 +1,19 @@
-/* Сброс отступов и полей */
+/* Скидання відступів і полів */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Основные стили для body */
+/* Основні стилі для body */
 body {
-    background-color: #f6f6f6; /* Светлый фон */
-    color: #333; /* Цвет текста */
+    background-color: #f6f6f6; /* Світлий фон */
+    color: #333; /* Колір тексту */
     font-family: 'Comfortaa', Arial, sans-serif; /* Шрифт Comfortaa */
-    overflow-x: hidden; /* Убираем горизонтальный скролл */
+    overflow-x: hidden; /* Прибираємо горизонтальний скрол */
 }
 
-/* Контейнер для навигации и логотипа */
+/* Контейнер для навігації та логотипу */
 .top-nav {
     position: relative;
     width: 100%;
@@ -21,7 +21,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px 30px;
-    background-color: #1b5e20; /* Зеленый фон */
+    background-color: #1b5e20; /* Зелений фон */
     z-index: 1;
     height: 60px;
 }
@@ -33,7 +33,7 @@ body {
     object-fit: contain;
 }
 
-/* Навигационные ссылки */
+/* Навігаційні посилання */
 .navigation a {
     color: #fff;
     font-size: 16px;
@@ -42,22 +42,22 @@ body {
 }
 
 .navigation a:hover {
-    color: #ffd700; /* Золотистый при наведении */
+    color: #ffd700; /* Золотистий при наведенні */
 }
 
-/* Кнопка входа */
+/* Кнопка входу */
 .login-button img {
     width: 30px;
     height: 30px;
 }
 
-/* Герой-блок с изображением */
+/* Герой-блок із зображенням */
 .hero {
     position: relative;
     width: 100%;
     height: 500px;
     overflow: hidden;
-    background-image: url('pet-store-hero.jpg'); /* Замените на ваш путь к изображению */
+    background-image: url('pet-store-hero.jpg'); /* Замініть на ваш шлях до зображення */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ body {
     background-color: #e0c200;
 }
 
-/* Секция с категориями товаров */
+/* Секція з категоріями товарів */
 .categories {
     padding: 50px 20px;
     text-align: center;
@@ -156,7 +156,7 @@ body {
     color: #ffd700;
 }
 
-/* Секция с каруселью популярных товаров */
+/* Секція з каруселлю популярних товарів */
 .featured-products {
     padding: 50px 20px;
     background-color: #e8f5e9;
@@ -203,7 +203,7 @@ body {
     color: #666;
 }
 
-/* Кнопка "Купить" в карусели */
+/* Кнопка "Купити" в каруселі */
 .buy-btn {
     display: inline-block;
     background-color: #1b5e20;
